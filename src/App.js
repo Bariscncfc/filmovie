@@ -1,8 +1,13 @@
+import { BrowserRouter} from 'react-router-dom';
+import Header from './components/Header/Header.tsx';
+
 
 function App() {
   return (
     <div>
-     <h1>Hello Movie Project</h1>
+     <BrowserRouter>
+			<Header />
+		</BrowserRouter>
     </div>
   );
 }
